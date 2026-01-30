@@ -38,7 +38,7 @@ from sklearn.datasets import make_blobs, load_iris
 ```python
 KMeans(
     n_clusters=8,              # Кількість кластерів K
-    init='k-means++',          # Метод ініціалізації: 'k-means++', 'random', або array
+    init='k-means++',          # Метод ініціалізації: 'k-means++', 'random',                                                                         або array
     n_init=10,                 # Кількість запусків з різними ініціалізаціями
     max_iter=300,              # Максимум ітерацій на один запуск
     tol=1e-4,                  # Толерантність для збіжності

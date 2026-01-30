@@ -11,10 +11,14 @@
             "id": "d152fe10fd641070",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "Навчання без учителя/DBSCAN/DBSCAN — sklearn практика.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "DBSCAN — sklearn практика"
             }
           }
         ]
@@ -178,13 +182,32 @@
   },
   "active": "d152fe10fd641070",
   "lastOpenFiles": [
+    "Навчання без учителя/K-means/K-means — sklearn практика.md",
+    "Навчання без учителя/DBSCAN/Code/DBSCAN-full.ipynb",
+    "Навчання без учителя/DBSCAN/Code/DBSCAN.ipynb",
+    "Навчання без учителя/DBSCAN/Code",
+    "Навчання без учителя/K-means/Code/K-means-full.ipynb",
+    "Навчання без учителя/K-means/Code/K-means.ipynb",
+    "Навчання без учителя/K-means/Code",
+    "Навчання без учителя/K-means/K-means-full.ipynb",
+    "Навчання без учителя/K-means/K-Means++ — ініціалізація.md",
+    "Навчання без учителя/K-means/K-means — метрики оцінки.md",
+    "Навчання без учителя/DBSCAN/DBSCAN — sklearn практика.md",
+    "Навчання без учителя/DBSCAN/DBSCAN.ipynb",
+    "Навчання без учителя/DBSCAN/DBSCAN.md",
+    "Навчання без учителя/K-means/K-means.ipynb",
+    "Навчання без учителя/K-means/K-Means — ідея.md",
+    "Навчання без учителя/DBSCAN",
+    "Лінійна регресія/Scikit-learn для лінійної регресії — Повний довідник.md",
+    "Лінійна регресія/Оцінка та валідація моделей.md",
+    "Лінійна регресія/Логістична регресія.md",
+    "Лінійна регресія/Поліноміальна регресія.md",
     "Лінійна регресія/Регуляризація.md",
     "Лінійна регресія/Метрики оцінки моделі.md",
     "Лінійна регресія/Метод найменших квадратів (МНК).md",
     "Лінійна регресія/Метод максимальної правдоподібності (ММП).md",
     "Лінійна регресія/Лінійна регресія — ідея.md",
     "Лінійна регресія/Градієнтний спуск.md",
-    "Лінійна регресія",
     "Decision Trees (Дерева Рішень).md",
     "Shannon entropy (Ентропія Шеннона).md",
     "k-Nearest Neighbors (k-NN).md",

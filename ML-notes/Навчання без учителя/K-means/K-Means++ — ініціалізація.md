@@ -561,5 +561,3 @@ kmeans = KMeans(init=centers, n_init=1)
 # Завжди використовуй (це за замовчуванням в sklearn):
 kmeans = KMeans(n_clusters=3, init='k-means++', n_init=10, random_state=42)
 ```
-
-**Формула успіху:** $$\text{K-Means++} + \text{n_init=10} + \text{random_state} = \text{Стабільні результати} ✓$$
