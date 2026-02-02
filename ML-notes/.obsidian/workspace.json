@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Навчання без учителя/DBSCAN/DBSCAN — sklearn практика.md",
+                "file": "Навчання без учителя/PCA/PCA-theory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DBSCAN — sklearn практика"
+              "title": "PCA-theory"
             }
           }
         ]
@@ -182,22 +182,30 @@
   },
   "active": "d152fe10fd641070",
   "lastOpenFiles": [
+    "Навчання без учителя/GMM/GMM-theory.md",
+    "Навчання без учителя/GMM/GMM-sklearn.md",
+    "Навчання без учителя/GMM/Code/GMM.ipynb",
+    "Навчання без учителя/GMM/Code",
+    "Навчання без учителя/PCA/PCA-theory.md",
+    "Навчання без учителя/PCA/PCA-sklearn.md",
+    "Навчання без учителя/PCA",
+    "Навчання без учителя/Нова папка",
+    "Навчання без учителя/Hierarchical Clustering/Hierarchical Clustering — sklearn практика.md",
+    "Навчання без учителя/GMM",
+    "Навчання без учителя/Hierarchical Clustering/Hierarchical clustering.md",
+    "Навчання без учителя/Hierarchical Clustering/Hierarchical — типи зв'язку (Linkage).md",
+    "Навчання без учителя/Hierarchical Clustering/Hierarchical Clustering — ідея.md",
+    "k-Nearest Neighbors (k-NN).md",
+    "Навчання без учителя/Hierarchical Clustering",
+    "Навчання без учителя/DBSCAN/DBSCAN — sklearn практика.md",
     "Навчання без учителя/K-means/Code/K-means-cheatsheet.ipynb",
     "Навчання без учителя/K-means/Code/kmeans_cheatsheet.ipynb",
     "Навчання без учителя/K-means/K-means — sklearn практика.md",
     "Навчання без учителя/DBSCAN/Code/DBSCAN-full.ipynb",
     "Навчання без учителя/DBSCAN/Code/DBSCAN.ipynb",
-    "Навчання без учителя/DBSCAN/Code",
-    "Навчання без учителя/K-means/Code/K-means-full.ipynb",
-    "Навчання без учителя/K-means/Code/K-means.ipynb",
-    "Навчання без учителя/K-means/Code",
-    "Навчання без учителя/K-means/K-means-full.ipynb",
     "Навчання без учителя/K-means/K-Means++ — ініціалізація.md",
     "Навчання без учителя/K-means/K-means — метрики оцінки.md",
-    "Навчання без учителя/DBSCAN/DBSCAN — sklearn практика.md",
-    "Навчання без учителя/DBSCAN/DBSCAN.ipynb",
     "Навчання без учителя/DBSCAN/DBSCAN.md",
-    "Навчання без учителя/K-means/K-means.ipynb",
     "Навчання без учителя/K-means/K-Means — ідея.md",
     "Лінійна регресія/Scikit-learn для лінійної регресії — Повний довідник.md",
     "Лінійна регресія/Оцінка та валідація моделей.md",
@@ -208,11 +216,6 @@
     "Лінійна регресія/Метод найменших квадратів (МНК).md",
     "Лінійна регресія/Метод максимальної правдоподібності (ММП).md",
     "Лінійна регресія/Лінійна регресія — ідея.md",
-    "Лінійна регресія/Градієнтний спуск.md",
-    "Decision Trees (Дерева Рішень).md",
-    "Shannon entropy (Ентропія Шеннона).md",
-    "k-Nearest Neighbors (k-NN).md",
-    "Gini Impurity (Невизначеність Джині).md",
-    "Information Gain (Приріст Інформації).md"
+    "Лінійна регресія/Градієнтний спуск.md"
   ]
 }
