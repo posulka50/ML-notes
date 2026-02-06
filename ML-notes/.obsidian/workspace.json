@@ -195,9 +195,19 @@
       "bases:Create new base": false
     }
   },
-  "active": "a8a8e45c78b17784",
+  "active": "057a55a683e04b92",
   "lastOpenFiles": [
+    "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md",
+    "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md.rmd~",
+    "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md.rmd",
+    "01_Supervised_Learning/01_Linear_Models/04_Polynomial_Regression.md",
+    "01_Supervised_Learning/01_Linear_Models/03_Regularization.md",
+    "01_Supervised_Learning/01_Linear_Models/01_Linear_Regression.md",
+    "01_Supervised_Learning/01_Linear_Models/02_Logistic_Regression.md",
+    "01_Supervised_Learning/01_Linear_Models",
+    "01_Supervised_Learning/Без назви.md",
     "00_Preprocessing/04_Outliers_Handling.md",
+    "01_Supervised_Learning",
     "00_Preprocessing/03_Missing_Values.md",
     "00_Preprocessing/01_Feature_Scaling.md",
     "00_Preprocessing/02_Categorical_Encoding.md",
@@ -218,20 +228,10 @@
     "Навчання без учителя/Hierarchical Clustering/Hierarchical — типи зв'язку (Linkage).md",
     "Навчання без учителя/Hierarchical Clustering/Hierarchical Clustering — ідея.md",
     "k-Nearest Neighbors (k-NN).md",
-    "Навчання без учителя/Hierarchical Clustering",
     "Навчання без учителя/DBSCAN/DBSCAN — sklearn практика.md",
-    "Навчання без учителя/K-means/Code/K-means-cheatsheet.ipynb",
-    "Навчання без учителя/K-means/Code/kmeans_cheatsheet.ipynb",
     "Навчання без учителя/K-means/K-means — sklearn практика.md",
-    "Навчання без учителя/DBSCAN/Code/DBSCAN-full.ipynb",
     "Навчання без учителя/K-means/K-Means++ — ініціалізація.md",
     "Навчання без учителя/K-means/K-means — метрики оцінки.md",
-    "Навчання без учителя/DBSCAN/DBSCAN.md",
-    "Навчання без учителя/K-means/K-Means — ідея.md",
-    "Лінійна регресія/Scikit-learn для лінійної регресії — Повний довідник.md",
-    "Лінійна регресія/Оцінка та валідація моделей.md",
-    "Лінійна регресія/Логістична регресія.md",
-    "Лінійна регресія/Поліноміальна регресія.md",
-    "Лінійна регресія/Регуляризація.md"
+    "Навчання без учителя/DBSCAN/DBSCAN.md"
   ]
 }
