@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Preprocessing/04_Outliers_Handling.md",
+                "file": "01_Supervised_Learning/01_Linear_Models/03_Regularization.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_Outliers_Handling"
+              "title": "03_Regularization"
             }
           }
         ],
@@ -195,18 +195,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "057a55a683e04b92",
+  "active": "a8a8e45c78b17784",
   "lastOpenFiles": [
+    "01_Supervised_Learning/01_Linear_Models/02_Logistic_Regression.md",
     "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md",
-    "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md.rmd~",
-    "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md.rmd",
     "01_Supervised_Learning/01_Linear_Models/04_Polynomial_Regression.md",
     "01_Supervised_Learning/01_Linear_Models/03_Regularization.md",
     "01_Supervised_Learning/01_Linear_Models/01_Linear_Regression.md",
-    "01_Supervised_Learning/01_Linear_Models/02_Logistic_Regression.md",
+    "00_Preprocessing/04_Outliers_Handling.md",
+    "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md.rmd~",
+    "01_Supervised_Learning/01_Linear_Models/05_Gradient_Descent.md.rmd",
     "01_Supervised_Learning/01_Linear_Models",
     "01_Supervised_Learning/Без назви.md",
-    "00_Preprocessing/04_Outliers_Handling.md",
     "01_Supervised_Learning",
     "00_Preprocessing/03_Missing_Values.md",
     "00_Preprocessing/01_Feature_Scaling.md",
