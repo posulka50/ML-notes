@@ -1,0 +1,3 @@
+Entropy
+Information_Gain
+Gini_Impurity
