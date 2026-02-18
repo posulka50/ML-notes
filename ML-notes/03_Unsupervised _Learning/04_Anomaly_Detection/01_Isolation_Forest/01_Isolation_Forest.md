@@ -19,6 +19,7 @@
 ## Коли використовувати?
 
 **Потрібно:**
+
 - **Unsupervised detection** — немає labeled anomalies
 - **Великі дані** — швидкий та ефективний
 - **High-dimensional data** — працює добре
@@ -27,6 +28,7 @@
 - **Числові features** — неперервні дані
 
 **Не потрібно:**
+
 - **Labeled anomalies** є → Supervised methods
 - **Categorical data** → інші методи (LOF, HDBSCAN)
 - **Дуже малі дані** (< 100) → statistical methods
@@ -125,75 +127,10 @@ s(x) < 0.5 → Точно normal (довгий path)
 
 ---
 
-## Алгоритм
+### Інтуїція
 
-### Training
-
-```python
-IsolationForest(X, n_trees=100, sample_size=256):
-    forest = []
-    
-    FOR i = 1 to n_trees:
-        # Sample підмножину даних
-        X_sample = random_sample(X, sample_size)
-        
-        # Побудувати iTree
-        tree = iTree(X_sample, current_height=0, height_limit=ceil(log2(sample_size)))
-        
-        forest.append(tree)
-    
-    RETURN forest
-
-iTree(X, current_height, height_limit):
-    IF current_height >= height_limit OR |X| <= 1:
-        RETURN Leaf(size=|X|)
-    
-    # Випадковий split
-    feature = random_choice(features)
-    split_value = random_uniform(min(X[feature]), max(X[feature]))
-    
-    # Розділити
-    X_left = X[X[feature] < split_value]
-    X_right = X[X[feature] >= split_value]
-    
-    RETURN Node(
-        feature=feature,
-        split_value=split_value,
-        left=iTree(X_left, current_height+1, height_limit),
-        right=iTree(X_right, current_height+1, height_limit)
-    )
-```
-
-### Prediction
-
-```python
-AnomalyScore(x, forest):
-    path_lengths = []
-    
-    FOR tree IN forest:
-        h = PathLength(x, tree, current_height=0)
-        path_lengths.append(h)
-    
-    avg_path_length = mean(path_lengths)
-    
-    # Нормалізувати
-    n = sample_size
-    c_n = 2 * H(n-1) - 2*(n-1)/n
-    
-    score = 2^(-avg_path_length / c_n)
-    
-    RETURN score
-
-PathLength(x, node, current_height):
-    IF node is Leaf:
-        # Adjust для розміру leaf
-        RETURN current_height + c(node.size)
-    
-    IF x[node.feature] < node.split_value:
-        RETURN PathLength(x, node.left, current_height+1)
-    ELSE:
-        RETURN PathLength(x, node.right, current_height+1)
-```
+Алгоритм багаторазово випадково "розрізає" простір.  
+Точки, які швидко відокремлюються від інших, вважаються підозрілими.
 
 ---
 
